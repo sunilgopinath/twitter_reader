@@ -4,7 +4,7 @@ import oauth2 as oauth
 import json
 from collections import OrderedDict
 
-class UrlsFromHashtags:
+class ReadTweets:
     
     def authenticate_client(self, consumer_key, consumer_secret):
         ''' reads the config file to find the twitter access tokens '''
